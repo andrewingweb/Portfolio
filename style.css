@@ -27,9 +27,10 @@ body {
     float: left;
     width: 69px;
     padding: 6px;
-    margin-left: 60px;
+    margin-left: 80px;
     opacity: 0.15;
     transition: opacity 0.8s ease-out 10ms;
+    width: 100px;
   }
   
   #header-img:hover {
@@ -51,7 +52,9 @@ body {
   .nav-list {
     display: flex;
     margin-right: 2rem;
+    margin-top: 3.2rem;
     list-style-type: none;
+    
   }
   
   @media (max-width: 28.75em) {
@@ -234,4 +237,19 @@ body {
     padding: 40px;
     height: 100px;
   }
-  
+  .space {
+    display: block;
+    height: 240px;
+  }
+  .space1 {
+    display: block;
+    height: 140px;
+  }
+  .space2 {
+    display: block;
+    height: 240px;
+  }
+  .space3 {
+    display: block;
+    height: 200px;
+  }
